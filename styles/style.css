@@ -35,6 +35,7 @@ background: #E55473;;
 color: #FFF;
 padding:15px;
 border-radius: 8px;
+border: none;
 font-weight: 700;
 margin-top: 30px;
 
@@ -115,8 +116,7 @@ height: 800px;
 }
 .hot-deal-text-h1{
 font-size: 40px;
-font-style: normal;
-font-weight: 800;
+font-weight: 700;
 }
 .off{
     color: #E55473;
@@ -139,4 +139,47 @@ font-weight: 400;
   display: flex;
   justify-content: center;
   gap: 20px;
+}
+.latest-deal{
+    background-image: url(../images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 449px;
+    margin-left: 240px;
+    border-radius: 8px;
+}
+.latest-deal-text{
+    text-align: center;
+    padding-top: 120px;
+    font-size: 40px;
+    margin-top: 120px;
+    font-weight: 700;
+}
+.latest-deal-description{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.email{
+    width: 600px;
+    height: 30px;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    margin-left: 320px;
+    margin-right: 10px;
+}
+.submit{
+    font-size: 20px;
+    background: #E55473;;
+    color: #FFF;
+    padding:20px;
+    border-radius: 8px;
+    font-weight: 700;
+    border: none;
+}
+.footer{
+    
 }
