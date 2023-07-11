@@ -48,13 +48,13 @@ height: 800px;
     width: 1920px;
     margin-bottom: 120px;
 }
-.featured-text{
+.content-text{
     text-align: center;
     margin-top: 150px;
     font-weight: 700;
     font-size: 40px;
 }
-.featured-description{
+.content-description{
     text-align: center;
     margin-top: 20px;
     margin-bottom: 60px;
@@ -64,6 +64,7 @@ height: 800px;
 .featured-images{
     display: flex;
     justify-content: center;
+    gap: 20px;
 }
 .pink-flower-img{
     border-radius: 300px 300px 0px 0px;
@@ -82,7 +83,6 @@ height: 800px;
     background: rgba(5, 151, 160, 0.15);
     width: 310px;
     height: 428px;
-    margin-left: 20px;
     padding: 100px 60px 0px 60px;
 }
 .mixed-flower-text{
@@ -94,7 +94,6 @@ height: 800px;
     background: rgba(71, 125, 17, 0.15);
     width: 310px;
     height: 428px;
-    margin-left: 20px;
     padding: 100px 60px 0px 60px;
 }
 .yellow-flower-text{
@@ -102,7 +101,10 @@ height: 800px;
     text-decoration: underline;
 }
 .hot-deal{
+    width: 1920px;
+    height: 540px;
     display: flex;
+    gap: 80px;
     justify-content: center;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
@@ -126,7 +128,15 @@ font-size: 18px;
 font-weight: 400;
 }
 .hot-deal-img{
-    margin: 80px 50px;
+    margin-top: 80px;
     width: 280px;
     height: 380px;
+}
+.instagram-section{
+    width: 1920px;
+}
+.instagram-images{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
