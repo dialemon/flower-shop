@@ -1,4 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 /*common shared style*/
 body{
     font-family: 'Lato', sans-serif;
+
+}
+.banner{
+    background-color: #E554731A;
+    width: 1920px;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.banner-title{
+font-size: 80px;
+font-weight: 700;
+color: #272727;
+margin-left: 150px;
+}
+.banner-description{
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.60);
+    font-weight: 400;
+    margin-top: 30px;
+    margin-left: 150px;
+}
+.button-primary{
+font-size: 20px;
+background: #E55473;;
+color: #FFF;
+padding:15px;
+border-radius: 8px;
+font-weight: 700;
+margin-top: 30px;
+margin-left: 150px;
+}
+.banner-image{
+width: 635px;
+height: 800px;
+margin-right: 150px;
 }
